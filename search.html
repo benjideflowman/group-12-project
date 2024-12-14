@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>todolist</title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <nav>
+            <div class="heading">
+                <span class="group-heading">Group 12 Platform</span>
+            </div>
+            <ul class="nav-links">
+                <ol><a class=" navigation-links" href="index.html">To-Do-List</a></ol>
+                <ol><a class=" active navigation-links" href="search.html">Search</a></ol>
+            </ul>
+        </nav>
+
+        <main>
+            <form >
+                <label for="participants">Select Category:</label>
+                <select id="participants" name="participants" required>
+                    <option value="all_categories">All Categories</option>
+                    <option value="work">Work</option>
+                    <option value="meeting">Meeting</option>
+                    <option value="shopping">Shopping</option>
+                    <option value="football">Football</option>
+                    </section>
+                </select>
+                <input type="text" id="searchBar" placeholder="Search">
+                <button id="buttonPressed" type="button">Search</button>
+            </form>
+
+            <div id="results">
+
+            </div>
+        </main>
+
+        <script src="index.js"></script>
+        <footer>
+            <p>© 2024 Group 12 Project   -   Email: deflowman@gmail.com</p>
+        </footer>
+    </body>
+</html>
